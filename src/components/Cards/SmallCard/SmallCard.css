@@ -1,0 +1,42 @@
+.small-card {
+    display: flex;
+    background-color: rgba(0, 128, 0, 0.2);
+    padding: 32px;
+    border-radius: 16px;
+    width: 100%;
+    gap: 16px;
+}
+
+.small-card__icon {
+
+}
+
+.small-card__icon > .icon {
+    display: grid;
+    place-items: center;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+.small-card__icon > .icon >svg {
+    height: 32px;
+    width: 32px;
+}
+
+.small-card__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.small-card__info--title {
+    font-size: 20px;
+}
+
+.small-card__info--value {
+    font-size: 26px;
+    font-weight: 600;
+}

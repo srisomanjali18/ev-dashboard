@@ -1,0 +1,91 @@
+.component_heatmap {
+    padding: 16px;
+    background-color: var(--bg-1);
+    color: var(--text-1);
+
+    display: grid;
+    grid-template-areas:
+        "head head head head"
+        "utilization heatmap heatmap heatmap";
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.component_heatmap .head {
+    grid-area: head;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.component_heatmap > .utilization {
+    grid-area: utilization;
+    background-color: var(--bg-2);
+    padding: 32px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.component_heatmap > .utilization > .cd1 {
+    background-color: none;
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.component_heatmap > .utilization > .cd1 > .left > .icon {
+    background-color: var(--bg-3);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    height: 64px;
+    width: 64px;
+}
+
+.component_heatmap > .utilization > .cd1 > .left > .icon > svg {
+    height: 32px;
+    width: 32px;
+}
+
+.component_heatmap > .utilization > .cd1 > .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.component_heatmap > .utilization > .cd1 > .right > .title {
+    font-size: 20px;
+}
+
+.component_heatmap > .utilization > .cd1 > .right > .value {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.component_heatmap > .utilization > .bottom {
+    position: relative;
+    background-color: var(--bg-1);
+    display: grid;
+    place-content: center;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: contain;
+    padding: 16px;
+}
+
+.component_heatmap > .utilization > .bottom > img{
+    width: 100%;
+}
+
+.component_heatmap > .map-container {
+    position: relative;
+    grid-area: heatmap;
+    color: black;
+}
