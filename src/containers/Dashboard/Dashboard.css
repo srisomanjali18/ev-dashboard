@@ -1,0 +1,28 @@
+.table-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-space {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-space input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.search-space button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}

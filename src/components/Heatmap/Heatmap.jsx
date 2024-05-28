@@ -59,7 +59,7 @@ function Heatmap() {
         }
     });
 
-
+    
     return (
         <>
             <div className="component_heatmap">
@@ -113,7 +113,7 @@ function Heatmap() {
                     </div>
 
                     <div className="bottom">
-                        <img src="src\assets\carimg.png" alt="Car" />
+                        <img src="../src/assets/carimg.png" alt="Car" />
                     </div>
                 </div>
 

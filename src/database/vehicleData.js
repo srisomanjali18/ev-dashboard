@@ -23,6 +23,7 @@ const vehicleData = [
         vendor_name: "Meenakshi Travels",
         battery_level: 6,
     },
+
     {
         vehicleId: "KA1236",
         no_of_trips: 456,
@@ -168,7 +169,7 @@ function countDischargedVehicles() {
     return count;
 }
 
-// function to count the number of vehicles who have battery level greater than 90 (fully charged state, long range)
+// function to count the number of vehicles who have battery level greater than 80 (fully charged state, long range)
 function countFullyChargedVehicles() {
     let count = 0;
     vehicleData.forEach(vehicle => {
