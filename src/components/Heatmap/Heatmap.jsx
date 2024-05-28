@@ -118,7 +118,7 @@ function Heatmap() {
                 </div>
 
                 <div className="map-container">
-                    <div className="title">Fleet Charge Status</div>
+                    {/* <div className="title">Fleet Charge Status</div> */}
                     <div className="chart">
                         <ReactApexChart options={chartData.options} series={chartData.series} type="treemap" />
                     </div>

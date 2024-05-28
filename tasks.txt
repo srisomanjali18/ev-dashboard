@@ -1,4 +1,0 @@
-1. create JSON Object for vehicles
-2. Create dashboard component
-3. Create table component
-4. Create a component of 
