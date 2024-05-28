@@ -113,7 +113,7 @@ function Heatmap() {
                     </div>
 
                     <div className="bottom">
-                        <img src="../src/assets/carimg.png" alt="Car" />
+                        <img src="https://res.cloudinary.com/du6rl5q2i/image/upload/f_auto,q_auto/riguq40jrtf9sjwf8wmy" alt="Car" />
                     </div>
                 </div>
 
